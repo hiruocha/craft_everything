@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_golden_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:golden_apple"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "craft_everything:enchanted_golden_apple"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_golden_apple"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "craft_everything:enchanted_golden_apple"
+        ]
+    }
+}
