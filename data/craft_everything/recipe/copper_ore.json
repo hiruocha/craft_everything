@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:stone",
+        "X": "minecraft:raw_copper_block"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:copper_ore",
+        "count": 1
+    }
+}
