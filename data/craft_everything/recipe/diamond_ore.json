@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:stone",
+        "X": "minecraft:diamond_block"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:diamond_ore",
+        "count": 1
+    }
+}
