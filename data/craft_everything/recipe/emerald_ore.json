@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:stone",
+        "X": "minecraft:emerald_block"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:emerald_ore",
+        "count": 1
+    }
+}
