@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "has_emerald_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:emerald_block"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "craft_everything:deepslate_emerald_ore"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_the_recipe",
+            "has_emerald_block"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "craft_everything:deepslate_emerald_ore"
+        ]
+    }
+}
